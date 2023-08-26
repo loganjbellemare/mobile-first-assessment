@@ -7,9 +7,10 @@ main h1 {
   text-align: center;
   font-family: "Amatic SC", cursive;
   font-size: 65px;
+  display: flex;
 }
 
-main h2 {
+main h2, .coffee-1 {
   margin: 18px 0 12px 0;
   border-bottom: 1px solid #5c4f41;
   font-family: "Special Elite", cursive;
@@ -26,4 +27,38 @@ main h3 {
 main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
+}
+
+.Group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item {
+  margin: 10px;
+  flex: 1;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+.footer {
+  background-color: #786048;
+}
+
+.Group img {
+  width: 100%;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+
+  .Group {
+    flex-direction: row;
+  }
 }
