@@ -1,5 +1,6 @@
-# Mobile first development starter
+#mobile-first-development-assessment
 
-Take a few moments to read through the HTML and CSS and make sure that you understand how it all works. Use VSCode Live Server to launch a local development server to serve the `index.html` file.
+practice with flexbox and media queries, as well as following a mobile-first development style
 
-#mobile-first-assessment
+design a site according to a guideline image and use flexbox to make layout responsive
+![guideline image](https://images.ctfassets.net/c7lxnbtvvcxm/1cUiMr9yDTSXkYmqMATD7q/8f09be989a48133f72366876da083eaf/Eng-assignment-goal.png) (desired goals)
